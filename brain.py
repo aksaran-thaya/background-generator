@@ -13,3 +13,7 @@ prediction.loadModel()
 predictions, probabilities = prediction.predictImage(os.path.join(execution_path, "godzilla.jpg"), result_count=5 )
 for eachPrediction, eachProbability in zip(predictions, probabilities):
     print(eachPrediction , " : " , eachProbability)
+
+    #testing git2 
+
+ a = "xz"
